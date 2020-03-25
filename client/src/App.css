@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'Prompt-Regular';
+    src: url('/fonts/Prompt-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Prompt-Medium';
+    src: url('/fonts/Prompt-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'Prompt-Bold';
+    src: url('/fonts/Prompt-Bold.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prompt-Medium';
+}
+
+.title {
+    font-family: 'Prompt-Regular'; 
+}
+
+
+
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  .example-input .ant-input {
+    width: 200px;
+    margin: 0 8px 8px 0;
+  }
+
+  #components-dropdown-demo-placement .ant-btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .code-box-demo .ant-select {
+    margin: 0 8px 10px 0;
+  }
+  
+  #components-select-demo-search-box .code-box-demo .ant-select {
+    margin: 0;
+  }
+
+  
